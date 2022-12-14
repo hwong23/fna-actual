@@ -176,7 +176,7 @@
         targetConnections="7b6e9fd7">
       <bounds
           x="180"
-          y="108"
+          y="120"
           width="157"
           height="97"/>
       <children
@@ -215,14 +215,14 @@
     <bounds
         x="864"
         y="168"
-        width="145"
+        width="169"
         height="229"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="24fca3a3"
         targetConnections="01c8f735">
       <bounds
-          x="12"
+          x="24"
           y="156"
           width="120"
           height="55"/>
