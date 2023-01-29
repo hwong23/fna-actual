@@ -1,8 +1,9 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Arquitectura detalle sincronizacion  Notificar retiros hechos desde fondo en linea"
-    id="11f20bb6">
+    name="Arquitectura detalle sincronizacion. Notificar retiros hechos desde fondo en linea"
+    id="11f20bb6"
+    documentation="Notificar retiros hechos desde fondo en linea.">
   <children
       xsi:type="archimate:DiagramModelGroup"
       id="67741be5"
