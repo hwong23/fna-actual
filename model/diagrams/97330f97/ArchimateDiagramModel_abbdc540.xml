@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Arquitectura Comceptual Credito Costructor"
+    name="Arquitectura Credito Costructor"
     id="abbdc540">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -14,7 +14,8 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="4ada6288"
-        targetConnections="42445f9b">
+        targetConnections="42445f9b"
+        fillColor="#0068da">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="860a4724"
@@ -81,7 +82,8 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="94777b64"
-        targetConnections="3e0ea171 b5957868">
+        targetConnections="3e0ea171 b5957868"
+        fillColor="#0068da">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="388aeaf1"
@@ -126,7 +128,8 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="652e73a2"
-        targetConnections="dec7c6f7">
+        targetConnections="dec7c6f7"
+        fillColor="#0068da">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="a1311b61"

@@ -26,7 +26,7 @@
     </sourceConnections>
     <bounds
         x="612"
-        y="348"
+        y="396"
         width="313"
         height="349"/>
     <children
@@ -399,7 +399,7 @@
       targetConnections="c4194464">
     <bounds
         x="456"
-        y="348"
+        y="396"
         width="120"
         height="55"/>
     <archimateElement
@@ -412,7 +412,7 @@
       targetConnections="a458607a">
     <bounds
         x="312"
-        y="348"
+        y="396"
         width="120"
         height="55"/>
     <archimateElement
@@ -425,7 +425,7 @@
       targetConnections="4861aa92">
     <bounds
         x="169"
-        y="348"
+        y="396"
         width="120"
         height="55"/>
     <archimateElement
@@ -438,7 +438,7 @@
       targetConnections="cdfbbd8b">
     <bounds
         x="24"
-        y="348"
+        y="396"
         width="120"
         height="55"/>
     <archimateElement
@@ -494,7 +494,7 @@
       targetConnections="87e22a6f">
     <bounds
         x="384"
-        y="423"
+        y="480"
         width="120"
         height="55"/>
     <archimateElement
@@ -623,7 +623,7 @@
       targetConnections="cdae556d">
     <bounds
         x="240"
-        y="432"
+        y="480"
         width="120"
         height="55"/>
     <archimateElement
@@ -634,8 +634,8 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="4d3dcbd1">
     <bounds
-        x="97"
-        y="495"
+        x="96"
+        y="564"
         width="120"
         height="55"/>
     <archimateElement
@@ -662,7 +662,7 @@
     </sourceConnections>
     <bounds
         x="-119"
-        y="348"
+        y="396"
         width="120"
         height="55"/>
     <archimateElement
@@ -725,7 +725,7 @@
     </sourceConnections>
     <bounds
         x="-47"
-        y="432"
+        y="480"
         width="120"
         height="55"/>
     <archimateElement
@@ -746,7 +746,7 @@
     </sourceConnections>
     <bounds
         x="97"
-        y="432"
+        y="480"
         width="120"
         height="55"/>
     <archimateElement
