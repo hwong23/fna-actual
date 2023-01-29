@@ -1,0 +1,431 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Arquitectura Conceptual de Servicios </title>
+
+	<!-- JQUERY (use 1.x branch to be compatible with IE 6/7/8) -->
+	<script type="text/javascript" src="../../lib/jquery/js/jquery-1.11.2.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap-3.3.2.min.css">
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap-theme-3.3.2.min.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.3.2.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>Arquitectura Conceptual de Servicios </b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-viewpoint-"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-viewpoint_" target="hint"></a>
+            <!-- Or if a model (i.e has Purpose method) -->
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+			   <img class="diagram" src="../images/29f8f86a.png" alt="Arquitectura Conceptual de Servicios " usemap="#29f8f86amap"/>
+			   <map name="29f8f86amap">
+				  				<area shape="rect" coords="92,1292,388,1402" href="../elements/9429c346.html"  target="element">
+				  				<area shape="rect" coords="94,1004,386,1114" href="../elements/5ccbdec3.html"  target="element">
+				  				<area shape="rect" coords="92,884,388,994" href="../elements/9abb31c0.html"  target="element">
+				  				<area shape="rect" coords="94,764,390,874" href="../elements/255817c1.html"  target="element">
+				  				<area shape="rect" coords="92,644,388,754" href="../elements/e0eb386c.html"  target="element">
+				  				<area shape="rect" coords="92,524,388,634" href="../elements/21ed8593.html"  target="element">
+				  				<area shape="rect" coords="92,404,388,514" href="../elements/5c7f27c3.html"  target="element">
+				  				<area shape="rect" coords="96,1172,388,1282" href="../elements/9c28deb5.html"  target="element">
+
+				  		<area shape="rect" coords="20,20,430,1414" href="../elements/4aec6e5f.html"  target="element">
+				  				<area shape="rect" coords="476,644,772,754" href="../elements/f68098d5.html"  target="element">
+				  				<area shape="rect" coords="476,884,772,994" href="../elements/c1af1a58.html"  target="element">
+				  				<area shape="rect" coords="476,404,772,514" href="../elements/081bceda.html"  target="element">
+				  				<area shape="rect" coords="478,1004,770,1114" href="../elements/559dcaec.html"  target="element">
+				  				<area shape="rect" coords="476,524,772,634" href="../elements/ec83b81a.html"  target="element">
+				  				<area shape="rect" coords="478,764,774,874" href="../elements/bf0b5404.html"  target="element">
+				  						<area shape="rect" coords="908,740,1124,850" href="../elements/05d8ef3a.html"  target="element">
+
+				  				<area shape="rect" coords="884,644,1150,886" href="../elements/c8dd64f0.html"  target="element">
+				  				<area shape="rect" coords="690,1292,986,1402" href="../elements/82f292b7.html"  target="element">
+				  				<area shape="rect" coords="692,1172,982,1282" href="../elements/15f31d56.html"  target="element">
+				  				<area shape="rect" coords="884,452,1124,562" href="../elements/b0d4fe7d.html"  target="element">
+				  				<area shape="rect" coords="548,236,788,346" href="../elements/a9ce5c93.html"  target="element">
+				  				<area shape="rect" coords="884,296,1124,406" href="../elements/fb7910b1.html"  target="element">
+				  				<area shape="rect" coords="884,164,1124,274" href="../elements/4a9570d3.html"  target="element">
+
+				  		<area shape="rect" coords="452,20,1174,1414" href="../elements/5eb298c9.html"  target="element">
+				  				<area shape="rect" coords="1578,308,1818,418" href="../elements/64b37cd4.html"  target="element">
+				  				<area shape="rect" coords="1578,162,1818,272" href="../elements/78a0c4f2.html"  target="element">
+
+				  		<area shape="rect" coords="1484,20,1870,1414" href="../elements/a87724aa.html"  target="element">
+
+			   </map>
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
+						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
+                    <!-- Model, Query Tab -->
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap"></div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+						<div role="tabpanel" class="tab-pane" id="elements">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+									</tr>
+								</thead>
+								<tbody>
+											<tr>
+											    <td> <a href="../elements/a87724aa.html" target="element"> ERP </a> </td>
+											    <td> <a href="../elements/a87724aa.html" target="element" class="i18n-elementtype-ApplicationComponent"> </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/78a0c4f2.html" target="element"> Orden de Pago </a> </td>
+													    <td> <a href="../elements/78a0c4f2.html" target="element" class="i18n-elementtype-ApplicationService"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/64b37cd4.html" target="element"> Interlocutor Comercial </a> </td>
+													    <td> <a href="../elements/64b37cd4.html" target="element" class="i18n-elementtype-ApplicationService"> </a> </td>
+													</tr>
+
+											
+											<tr>
+											    <td> <a href="../elements/5eb298c9.html" target="element"> ESB-IBM </a> </td>
+											    <td> <a href="../elements/5eb298c9.html" target="element" class="i18n-elementtype-ApplicationComponent"> </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/4a9570d3.html" target="element"> Orden de Pago ERP </a> </td>
+													    <td> <a href="../elements/4a9570d3.html" target="element" class="i18n-elementtype-ApplicationService"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/fb7910b1.html" target="element"> Interlocutor Comercial ERP </a> </td>
+													    <td> <a href="../elements/fb7910b1.html" target="element" class="i18n-elementtype-ApplicationService"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/a9ce5c93.html" target="element"> Orden de Pago Interlocutor Comercial </a> </td>
+													    <td> <a href="../elements/a9ce5c93.html" target="element" class="i18n-elementtype-ApplicationService"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/b0d4fe7d.html" target="element"> Eliminacion </a> </td>
+													    <td> <a href="../elements/b0d4fe7d.html" target="element" class="i18n-elementtype-ApplicationService"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/15f31d56.html" target="element"> ModificacionOrdenPago </a> </td>
+													    <td> <a href="../elements/15f31d56.html" target="element" class="i18n-elementtype-ApplicationService"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/82f292b7.html" target="element"> EliminacionAporteCesantias  </a> </td>
+													    <td> <a href="../elements/82f292b7.html" target="element" class="i18n-elementtype-ApplicationService"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/c8dd64f0.html" target="element"> DecisorServicioCob </a> </td>
+													    <td> <a href="../elements/c8dd64f0.html" target="element" class="i18n-elementtype-ApplicationFunction"> </a> </td>
+													</tr>
+
+															<tr>
+															    <td> <a href="../elements/05d8ef3a.html" target="element"> Conceptos Cobis </a> </td>
+															    <td> <a href="../elements/05d8ef3a.html" target="element" class="i18n-elementtype-DataObject"> </a> </td>
+															</tr>
+
+													
+													<tr>
+													    <td> <a href="../elements/bf0b5404.html" target="element"> EliminacionRetiroCuentaAVC (copy) </a> </td>
+													    <td> <a href="../elements/bf0b5404.html" target="element" class="i18n-elementtype-ApplicationService"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/ec83b81a.html" target="element"> ElimGiroConsignacionEntidad (copy) </a> </td>
+													    <td> <a href="../elements/ec83b81a.html" target="element" class="i18n-elementtype-ApplicationService"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/559dcaec.html" target="element"> ElimDevSobranteCartera (copy) </a> </td>
+													    <td> <a href="../elements/559dcaec.html" target="element" class="i18n-elementtype-ApplicationService"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/081bceda.html" target="element"> ElimDevolucionAporteEntidad (copy) </a> </td>
+													    <td> <a href="../elements/081bceda.html" target="element" class="i18n-elementtype-ApplicationService"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/c1af1a58.html" target="element"> ElimRetiroCuentaCesantias (copy) </a> </td>
+													    <td> <a href="../elements/c1af1a58.html" target="element" class="i18n-elementtype-ApplicationService"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/f68098d5.html" target="element"> ElimDesembolsoOblCartera (copy) </a> </td>
+													    <td> <a href="../elements/f68098d5.html" target="element" class="i18n-elementtype-ApplicationService"> </a> </td>
+													</tr>
+
+											
+											<tr>
+											    <td> <a href="../elements/4aec6e5f.html" target="element"> Cobis  </a> </td>
+											    <td> <a href="../elements/4aec6e5f.html" target="element" class="i18n-elementtype-ApplicationComponent"> </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/9c28deb5.html" target="element"> ModificacionOrdenPago </a> </td>
+													    <td> <a href="../elements/9c28deb5.html" target="element" class="i18n-elementtype-ApplicationService"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/5c7f27c3.html" target="element"> ElimDevolucionAporteEntidad </a> </td>
+													    <td> <a href="../elements/5c7f27c3.html" target="element" class="i18n-elementtype-ApplicationService"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/21ed8593.html" target="element"> ElimGiroConsignacionEntidad </a> </td>
+													    <td> <a href="../elements/21ed8593.html" target="element" class="i18n-elementtype-ApplicationService"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/e0eb386c.html" target="element"> ElimDesembolsoOblCartera </a> </td>
+													    <td> <a href="../elements/e0eb386c.html" target="element" class="i18n-elementtype-ApplicationService"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/255817c1.html" target="element"> EliminacionRetiroCuentaAVC </a> </td>
+													    <td> <a href="../elements/255817c1.html" target="element" class="i18n-elementtype-ApplicationService"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/9abb31c0.html" target="element"> ElimRetiroCuentaCesantias </a> </td>
+													    <td> <a href="../elements/9abb31c0.html" target="element" class="i18n-elementtype-ApplicationService"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/5ccbdec3.html" target="element"> ElimDevSobranteCartera </a> </td>
+													    <td> <a href="../elements/5ccbdec3.html" target="element" class="i18n-elementtype-ApplicationService"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/9429c346.html" target="element"> EliminacionAporteCesantias </a> </td>
+													    <td> <a href="../elements/9429c346.html" target="element" class="i18n-elementtype-ApplicationService"> </a> </td>
+													</tr>
+
+											
+
+								</tbody>
+							</table>
+						</div>
+						<div role="tabpanel" class="tab-pane" id="relationships">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+										<th class="i18n-source"></th>
+										<th class="i18n-target"></th>
+									</tr>
+								</thead>
+								<tbody>
+																	<tr>
+																		<td> <a href="../elements/2a77eaf0.html" target="element">  </a> </td>
+																		<td> <a href="../elements/2a77eaf0.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																		<td> <a href="../elements/a87724aa.html" target="element"> ERP </a> </td>
+																		<td> <a href="../elements/b0d4fe7d.html" target="element"> Eliminacion </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/5b208af6.html" target="element">  </a> </td>
+																		<td> <a href="../elements/5b208af6.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																		<td> <a href="../elements/a87724aa.html" target="element"> ERP </a> </td>
+																		<td> <a href="../elements/15f31d56.html" target="element"> ModificacionOrdenPago </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/f766e9f5.html" target="element">  </a> </td>
+																		<td> <a href="../elements/f766e9f5.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																		<td> <a href="../elements/a87724aa.html" target="element"> ERP </a> </td>
+																		<td> <a href="../elements/82f292b7.html" target="element"> EliminacionAporteCesantias  </a> </td>
+																	</tr>
+
+											
+																			<tr>
+																				<td> <a href="../elements/83069dc7.html" target="element">  </a> </td>
+																				<td> <a href="../elements/83069dc7.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																				<td> <a href="../elements/4a9570d3.html" target="element"> Orden de Pago ERP </a> </td>
+																				<td> <a href="../elements/78a0c4f2.html" target="element"> Orden de Pago </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/50b0d91b.html" target="element">  </a> </td>
+																				<td> <a href="../elements/50b0d91b.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																				<td> <a href="../elements/fb7910b1.html" target="element"> Interlocutor Comercial ERP </a> </td>
+																				<td> <a href="../elements/64b37cd4.html" target="element"> Interlocutor Comercial </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/7dd38f10.html" target="element">  </a> </td>
+																				<td> <a href="../elements/7dd38f10.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																				<td> <a href="../elements/a9ce5c93.html" target="element"> Orden de Pago Interlocutor Comercial </a> </td>
+																				<td> <a href="../elements/4a9570d3.html" target="element"> Orden de Pago ERP </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/6a82fe5a.html" target="element">  </a> </td>
+																				<td> <a href="../elements/6a82fe5a.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																				<td> <a href="../elements/a9ce5c93.html" target="element"> Orden de Pago Interlocutor Comercial </a> </td>
+																				<td> <a href="../elements/fb7910b1.html" target="element"> Interlocutor Comercial ERP </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/9297138e.html" target="element">  </a> </td>
+																				<td> <a href="../elements/9297138e.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																				<td> <a href="../elements/b0d4fe7d.html" target="element"> Eliminacion </a> </td>
+																				<td> <a href="../elements/c8dd64f0.html" target="element"> DecisorServicioCob </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/7412f4f9.html" target="element">  </a> </td>
+																				<td> <a href="../elements/7412f4f9.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																				<td> <a href="../elements/b0d4fe7d.html" target="element"> Eliminacion </a> </td>
+																				<td> <a href="../elements/081bceda.html" target="element"> ElimDevolucionAporteEntidad (copy) </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/4238373f.html" target="element">  </a> </td>
+																				<td> <a href="../elements/4238373f.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																				<td> <a href="../elements/b0d4fe7d.html" target="element"> Eliminacion </a> </td>
+																				<td> <a href="../elements/ec83b81a.html" target="element"> ElimGiroConsignacionEntidad (copy) </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/de08e96c.html" target="element">  </a> </td>
+																				<td> <a href="../elements/de08e96c.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																				<td> <a href="../elements/b0d4fe7d.html" target="element"> Eliminacion </a> </td>
+																				<td> <a href="../elements/f68098d5.html" target="element"> ElimDesembolsoOblCartera (copy) </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/91120d80.html" target="element">  </a> </td>
+																				<td> <a href="../elements/91120d80.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																				<td> <a href="../elements/b0d4fe7d.html" target="element"> Eliminacion </a> </td>
+																				<td> <a href="../elements/bf0b5404.html" target="element"> EliminacionRetiroCuentaAVC (copy) </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/9752b4b7.html" target="element">  </a> </td>
+																				<td> <a href="../elements/9752b4b7.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																				<td> <a href="../elements/b0d4fe7d.html" target="element"> Eliminacion </a> </td>
+																				<td> <a href="../elements/c1af1a58.html" target="element"> ElimRetiroCuentaCesantias (copy) </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/fc30ccb2.html" target="element">  </a> </td>
+																				<td> <a href="../elements/fc30ccb2.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																				<td> <a href="../elements/b0d4fe7d.html" target="element"> Eliminacion </a> </td>
+																				<td> <a href="../elements/559dcaec.html" target="element"> ElimDevSobranteCartera (copy) </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/7b99d463.html" target="element">  </a> </td>
+																				<td> <a href="../elements/7b99d463.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																				<td> <a href="../elements/15f31d56.html" target="element"> ModificacionOrdenPago </a> </td>
+																				<td> <a href="../elements/9c28deb5.html" target="element"> ModificacionOrdenPago </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/ab5cce85.html" target="element">  </a> </td>
+																				<td> <a href="../elements/ab5cce85.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																				<td> <a href="../elements/82f292b7.html" target="element"> EliminacionAporteCesantias  </a> </td>
+																				<td> <a href="../elements/9429c346.html" target="element"> EliminacionAporteCesantias </a> </td>
+																			</tr>
+
+													
+																			<tr>
+																				<td> <a href="../elements/b54c3f46.html" target="element">  </a> </td>
+																				<td> <a href="../elements/b54c3f46.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																				<td> <a href="../elements/bf0b5404.html" target="element"> EliminacionRetiroCuentaAVC (copy) </a> </td>
+																				<td> <a href="../elements/255817c1.html" target="element"> EliminacionRetiroCuentaAVC </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/02cc8683.html" target="element">  </a> </td>
+																				<td> <a href="../elements/02cc8683.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																				<td> <a href="../elements/ec83b81a.html" target="element"> ElimGiroConsignacionEntidad (copy) </a> </td>
+																				<td> <a href="../elements/21ed8593.html" target="element"> ElimGiroConsignacionEntidad </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/5f17fed9.html" target="element">  </a> </td>
+																				<td> <a href="../elements/5f17fed9.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																				<td> <a href="../elements/559dcaec.html" target="element"> ElimDevSobranteCartera (copy) </a> </td>
+																				<td> <a href="../elements/5ccbdec3.html" target="element"> ElimDevSobranteCartera </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/b81b1eb6.html" target="element">  </a> </td>
+																				<td> <a href="../elements/b81b1eb6.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																				<td> <a href="../elements/081bceda.html" target="element"> ElimDevolucionAporteEntidad (copy) </a> </td>
+																				<td> <a href="../elements/5c7f27c3.html" target="element"> ElimDevolucionAporteEntidad </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/4e8110df.html" target="element">  </a> </td>
+																				<td> <a href="../elements/4e8110df.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																				<td> <a href="../elements/c1af1a58.html" target="element"> ElimRetiroCuentaCesantias (copy) </a> </td>
+																				<td> <a href="../elements/9abb31c0.html" target="element"> ElimRetiroCuentaCesantias </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/6b9ae47b.html" target="element">  </a> </td>
+																				<td> <a href="../elements/6b9ae47b.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																				<td> <a href="../elements/f68098d5.html" target="element"> ElimDesembolsoOblCartera (copy) </a> </td>
+																				<td> <a href="../elements/e0eb386c.html" target="element"> ElimDesembolsoOblCartera </a> </td>
+																			</tr>
+
+											
+																	<tr>
+																		<td> <a href="../elements/8f1e6f9a.html" target="element">  </a> </td>
+																		<td> <a href="../elements/8f1e6f9a.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																		<td> <a href="../elements/4aec6e5f.html" target="element"> Cobis  </a> </td>
+																		<td> <a href="../elements/a9ce5c93.html" target="element"> Orden de Pago Interlocutor Comercial </a> </td>
+																	</tr>
+
+											
+
+								</tbody>
+							</table>
+						</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>
