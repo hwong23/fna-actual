@@ -614,9 +614,9 @@
       textAlignment="1"
       content="Leyenda&#xD;&#xA;&#xD;&#xA;Linea Negra: Flujo de Negocio &#xD;&#xA;Linea Azul : Invocaciones trasversales para el manejo de logs, auditoria y errores del ESB.">
     <bounds
-        x="1183"
-        y="48"
+        x="1176"
+        y="12"
         width="270"
-        height="80"/>
+        height="116"/>
   </children>
 </archimate:ArchimateDiagramModel>
