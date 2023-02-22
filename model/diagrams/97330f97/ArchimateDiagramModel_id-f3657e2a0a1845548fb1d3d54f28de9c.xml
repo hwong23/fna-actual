@@ -8,7 +8,7 @@
       id="id-adc86c646e2d4d81b3783272c6c5d431">
     <bounds
         x="228"
-        y="24"
+        y="156"
         width="493"
         height="553"/>
     <children
@@ -167,7 +167,7 @@
     </sourceConnections>
     <bounds
         x="12"
-        y="24"
+        y="156"
         width="205"
         height="265"/>
     <children
@@ -202,7 +202,7 @@
     </sourceConnections>
     <bounds
         x="12"
-        y="312"
+        y="444"
         width="205"
         height="265"/>
     <children
@@ -242,7 +242,7 @@
     </sourceConnections>
     <bounds
         x="744"
-        y="24"
+        y="156"
         width="157"
         height="265"/>
     <children
@@ -261,5 +261,64 @@
     <archimateElement
         xsi:type="archimate:ApplicationComponent"
         href="ApplicationComponent_b996d08c.xml#b996d08c"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-49a6c451b2e54f56b2d93a1f69766cc0"
+      textAlignment="1"
+      content="Proyecto 180-2020. E-Service. Diagnóstico SOA FNA&#xA;&#xA;Análisis de brecha Crédito Constructor FNA. &#xA;&#xA;version 0.4&#xA;">
+    <bounds
+        x="12"
+        y="12"
+        width="241"
+        height="116"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-c8fc7be5434841128babcc4748010235"
+      textAlignment="1"
+      fillColor="#ff2600"
+      borderType="1">
+    <bounds
+        x="420"
+        y="74"
+        width="26"
+        height="24"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-aac00ec95694450f8d9c8e1ae075f1be"
+      textAlignment="1"
+      content="Sustitución&#xA;"
+      borderType="2">
+    <bounds
+        x="456"
+        y="74"
+        width="185"
+        height="24"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-7bb2f57dc1d746b191999d2ad75de994"
+      textAlignment="1"
+      fillColor="#4e8f00"
+      borderType="1">
+    <bounds
+        x="588"
+        y="74"
+        width="26"
+        height="24"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-346885cfb0114bd4a279eb7233b17a23"
+      textAlignment="1"
+      content="Actualización&#xA;"
+      borderType="2">
+    <bounds
+        x="624"
+        y="74"
+        width="185"
+        height="24"/>
   </children>
 </archimate:ArchimateDiagramModel>
