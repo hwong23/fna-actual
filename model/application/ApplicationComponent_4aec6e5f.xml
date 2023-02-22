@@ -1,4 +1,8 @@
 <archimate:ApplicationComponent
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Cobis "
-    id="4aec6e5f"/>
+    id="4aec6e5f">
+  <properties
+      key="impacto"
+      value="60"/>
+</archimate:ApplicationComponent>

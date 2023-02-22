@@ -222,7 +222,8 @@
     </children>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
-        id="56b9bd97">
+        id="56b9bd97"
+        fillColor="#66994d">
       <bounds
           x="348"
           y="48"

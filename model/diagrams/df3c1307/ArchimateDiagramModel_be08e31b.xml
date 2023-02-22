@@ -124,7 +124,8 @@
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="7e7ca9e6"
-          targetConnections="dd7c4983 580bf2b6">
+          targetConnections="dd7c4983 580bf2b6"
+          fillColor="#ff0000">
         <sourceConnections
             xsi:type="archimate:DiagramModelArchimateConnection"
             id="5f5b832f"

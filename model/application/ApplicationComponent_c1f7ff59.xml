@@ -1,4 +1,11 @@
 <archimate:ApplicationComponent
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Cuadro Ventas CCP"
-    id="c1f7ff59"/>
+    id="c1f7ff59">
+  <properties
+      key="impacto"
+      value="60"/>
+  <properties
+      key="alcanseSOA"
+      value="Fase 1.1"/>
+</archimate:ApplicationComponent>

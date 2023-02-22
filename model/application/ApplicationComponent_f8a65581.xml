@@ -1,4 +1,8 @@
 <archimate:ApplicationComponent
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Adaptador Integración Cobis"
-    id="f8a65581"/>
+    id="f8a65581">
+  <properties
+      key="impacto"
+      value="0"/>
+</archimate:ApplicationComponent>

@@ -1,4 +1,8 @@
 <archimate:ApplicationComponent
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Adaptador Tecnologia SOAP"
-    id="fd858116"/>
+    id="fd858116">
+  <properties
+      key="impacto"
+      value="0"/>
+</archimate:ApplicationComponent>
