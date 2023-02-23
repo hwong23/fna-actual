@@ -1,4 +1,11 @@
 <archimate:ApplicationComponent
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Presupuesto"
-    id="83a31f0f"/>
+    id="83a31f0f">
+  <properties
+      key="impacto"
+      value="60"/>
+  <properties
+      key="brecha"
+      value="actualización"/>
+</archimate:ApplicationComponent>

@@ -1,4 +1,11 @@
 <archimate:ApplicationComponent
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Contabilidad"
-    id="c1855021"/>
+    id="c1855021">
+  <properties
+      key="impacto"
+      value="60"/>
+  <properties
+      key="brecha"
+      value="actualización"/>
+</archimate:ApplicationComponent>

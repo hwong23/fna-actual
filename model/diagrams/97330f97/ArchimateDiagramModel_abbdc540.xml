@@ -14,8 +14,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="4ada6288"
-        targetConnections="42445f9b"
-        fillColor="#ff0000">
+        targetConnections="42445f9b">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="860a4724"
@@ -82,8 +81,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="94777b64"
-        targetConnections="3e0ea171 b5957868"
-        fillColor="#ff0000">
+        targetConnections="3e0ea171 b5957868">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="388aeaf1"
@@ -105,8 +103,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="83c854d6"
-        targetConnections="318a3e7e"
-        fillColor="#ff0000">
+        targetConnections="318a3e7e">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="0b817baa"
@@ -128,8 +125,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="652e73a2"
-        targetConnections="dec7c6f7"
-        fillColor="#ff0000">
+        targetConnections="dec7c6f7">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="a1311b61"
@@ -154,8 +150,7 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="0e577ab5"
-      fillColor="#66994d">
+      id="0e577ab5">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="38cb477d"
@@ -189,8 +184,7 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="40afab3c"
-      fillColor="#66994d">
+      id="40afab3c">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="3e0ea171"
@@ -224,8 +218,7 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="88f68d55"
-      fillColor="#66994d">
+      id="88f68d55">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="b5957868"
