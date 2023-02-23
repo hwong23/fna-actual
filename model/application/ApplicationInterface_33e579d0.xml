@@ -1,4 +1,11 @@
 <archimate:ApplicationInterface
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Adaptadores Integración int"
-    id="33e579d0"/>
+    id="33e579d0">
+  <properties
+      key="impacto"
+      value="0"/>
+  <properties
+      key="brecha"
+      value="sustitución"/>
+</archimate:ApplicationInterface>

@@ -1,4 +1,11 @@
 <archimate:ApplicationInterface
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Adaptadores Integración Ext"
-    id="bee4cc39"/>
+    id="bee4cc39">
+  <properties
+      key="impacto"
+      value="0"/>
+  <properties
+      key="brecha"
+      value="sustitución"/>
+</archimate:ApplicationInterface>
