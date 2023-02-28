@@ -380,7 +380,7 @@
     <bounds
         x="131"
         y="156"
-        width="62"
+        width="74"
         height="73"/>
     <archimateElement
         xsi:type="archimate:CommunicationNetwork"
