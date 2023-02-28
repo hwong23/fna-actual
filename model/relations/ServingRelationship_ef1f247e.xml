@@ -1,6 +1,7 @@
 <archimate:ServingRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Mensaje JSONMQ"
     id="ef1f247e">
   <source
       xsi:type="archimate:ApplicationFunction"

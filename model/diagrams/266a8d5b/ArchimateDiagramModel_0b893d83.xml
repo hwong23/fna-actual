@@ -220,7 +220,8 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="24fca3a3"
-        targetConnections="01c8f735">
+        targetConnections="01c8f735"
+        fillColor="#66994d">
       <bounds
           x="24"
           y="156"
