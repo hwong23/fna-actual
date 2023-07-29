@@ -1,0 +1,11 @@
+<archimate:ApplicationService
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Servicios Bizagi"
+    id="e562db8f">
+  <properties
+      key="impacto"
+      value="60"/>
+  <properties
+      key="brecha"
+      value="actualización"/>
+</archimate:ApplicationService>

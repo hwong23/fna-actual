@@ -1,0 +1,12 @@
+<archimate:ServingRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Mensaje JSONMQ"
+    id="ef1f247e">
+  <source
+      xsi:type="archimate:ApplicationFunction"
+      href="ApplicationFunction_3929bcde.xml#3929bcde"/>
+  <target
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_93f2f74a.xml#93f2f74a"/>
+</archimate:ServingRelationship>

@@ -1,0 +1,12 @@
+<archimate:FlowRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="evalúa"
+    id="id-57c60f731eb14290bbb75fbf88bfef8a">
+  <source
+      xsi:type="archimate:BusinessInteraction"
+      href="BusinessInteraction_id-bebbf289c42f4caab2c401c4bdfec81f.xml#id-bebbf289c42f4caab2c401c4bdfec81f"/>
+  <target
+      xsi:type="archimate:BusinessInteraction"
+      href="BusinessInteraction_id-f331782a4eca4fdfaa9005fad5c4c0d2.xml#id-f331782a4eca4fdfaa9005fad5c4c0d2"/>
+</archimate:FlowRelationship>

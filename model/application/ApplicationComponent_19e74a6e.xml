@@ -1,0 +1,11 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Adaptador Integración Bizagi"
+    id="19e74a6e">
+  <properties
+      key="impacto"
+      value="60"/>
+  <properties
+      key="brecha"
+      value="actualización"/>
+</archimate:ApplicationComponent>

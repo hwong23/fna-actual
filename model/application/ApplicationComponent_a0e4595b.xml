@@ -1,0 +1,8 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Libranza"
+    id="a0e4595b">
+  <properties
+      key="alcanceSOA"
+      value="Fase 1.1"/>
+</archimate:ApplicationComponent>
